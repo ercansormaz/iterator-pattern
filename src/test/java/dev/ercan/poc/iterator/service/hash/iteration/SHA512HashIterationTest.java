@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import dev.ercan.poc.iterator.service.hash.iteration.impl.SHA512HashIteration;
 import org.junit.jupiter.api.Test;
 
-public class SHA512HashIterationTest {
+class SHA512HashIterationTest {
 
   private final HashIteration iteration = new SHA512HashIteration();
 

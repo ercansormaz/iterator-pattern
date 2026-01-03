@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import dev.ercan.poc.iterator.service.hash.iteration.impl.MD5HashIteration;
 import org.junit.jupiter.api.Test;
 
-public class MD5HashIterationTest {
+class MD5HashIterationTest {
 
   private final HashIteration iteration = new MD5HashIteration();
 
